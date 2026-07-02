@@ -1,1 +1,0 @@
-select * from notification where category == "placment"
