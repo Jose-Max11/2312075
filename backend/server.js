@@ -6,6 +6,10 @@ app.use(express.json());
 
 const notificationRoutes = require("./routes/notification");
 
+const db=  require("./config/db");
+
+db();
+
 app.use("/api/notification",notificationRoutes);
 
 const PORT = 5000;
