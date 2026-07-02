@@ -9,6 +9,12 @@ let notifications = [
         title : "Placement Test",
         message : "You have a new Placement test on tommorow morning at 9 am",
         category :"Placmenet",
+    },
+    {
+        id : 2,
+        title : " Test Result",
+        message : "You have a  test result on tommorow morning at 9 am",
+        category :"Result",
     }
 ];
 
